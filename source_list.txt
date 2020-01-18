@@ -1,0 +1,15 @@
+CHAM128.vhd
+SomeFunctions.vhd
+myReg.vhd
+COMET_CHAM128.vhd
+design_pkg.vhd
+CryptoCore.vhd
+NIST_LWAPI_pkg.vhd
+StepDownCountLd.vhd
+key_piso.vhd
+data_piso.vhd
+PreProcessor.vhd
+data_sipo.vhd
+PostProcessor.vhd
+fwft_fifo.vhd
+LWC.vhd

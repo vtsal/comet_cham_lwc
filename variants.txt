@@ -1,0 +1,15 @@
+v1: COMET-128_CHAM-128/128
+
+    Reference software:    
+        comet128aesv1
+        
+    Architecture description:
+        Implementation of COMET-CHAM, with b=128, n=128, and t=128. Basic iterative architecture where 1 round of the CHAM round function is executed in 1 clock cycle.
+
+    Key setup time:
+        0
+        
+    Execution time of authenticated encryption:
+        93 + (Na*87) + (Nm*91) + 86
+    Execution time of authenticated decryption:
+        87 + (Na*87) + (Nc*91) + 88
